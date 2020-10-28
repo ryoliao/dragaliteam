@@ -29837,7 +29837,7 @@ p=$.a8U()
 o.toString
 D.a0s(H.ahS(o,p,"")+"#"+q).bu(0,new F.X5(a),t.P)},
 J:function(a,b){var s=null,r=T.wH(new U.m_(M.adh(s,s,new L.cM("assets/image/logo_title.png",s,s)),96,s,s),s,s),q=this.a.c
-q=T.wH(M.lG(s,new D.rI(96,q,this.d,new N.fG(q)),s,s,s,s,new V.aW(0,12,0,12),s,s),s,s)
+q=T.wH(M.lG(s,new D.rI(128,q,this.d,new N.fG(q)),s,s,s,s,new V.aW(0,12,0,12),s,s),s,s)
 return new M.r7(new E.oA(r,new P.a0(1/0,56),s),new E.B2(!0,q,s),E.a3F(C.xl,L.a3T(C.w_),!1,new F.X6(this,b),"Share"),s)}}
 F.X5.prototype={
 $1:function(a){var s=null,r=this.a
