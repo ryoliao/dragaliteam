@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "09b458c51a4cdb9b69e99a2200770dcd",
+  "assets/AssetManifest.json": "7aa4ef2299f26f47372ca645c33a015a",
 "assets/assets/dataset.bin": "43d087fde23ab55c971280fe66c86ba1",
 "assets/assets/image/ability/Icon_Ability_1010001.png": "13d7ce4b76ff580d51584663f9c14d3f",
 "assets/assets/image/ability/Icon_Ability_1010002.png": "b196a1c7c00495100d27551afa4e5516",
@@ -735,6 +735,15 @@ const RESOURCES = {
 "assets/assets/image/Icon_Element_Shadow.png": "433fbbffeafd4d25e473da3137d2c371",
 "assets/assets/image/Icon_Element_Water.png": "0aae89b92824f7ea1bb062c1bf79749d",
 "assets/assets/image/Icon_Element_Wind.png": "4c9378033bdcd37672c20a0e47a6bcef",
+"assets/assets/image/Icon_Weapon_Axe.png": "0129dbd8a01c71bee8167bcd623a814a",
+"assets/assets/image/Icon_Weapon_Blade.png": "6e1e44c4a7456c55ec5f460292b61def",
+"assets/assets/image/Icon_Weapon_Bow.png": "6a22a46a8248dec713feb23fa47ddfae",
+"assets/assets/image/Icon_Weapon_Dagger.png": "5c2a5b2aad174c363a2705924abb1a1b",
+"assets/assets/image/Icon_Weapon_Lance.png": "0281a681b2666ae6dfc779513a0aefd0",
+"assets/assets/image/Icon_Weapon_Manacaster.png": "af14a7a1e3994336b438e801e3a43531",
+"assets/assets/image/Icon_Weapon_Staff.png": "6217a61c83085692853dffd3d8379312",
+"assets/assets/image/Icon_Weapon_Sword.png": "b5da7b1e64804dc5973d71ee31bff3a4",
+"assets/assets/image/Icon_Weapon_Wand.png": "91db31793b2126b8378c91baa5a62f59",
 "assets/assets/image/Icon_Wyrmprint_Blank_A.png": "0b42786f9cbe36a13f1bc51dbeceb7e2",
 "assets/assets/image/Icon_Wyrmprint_Blank_B.png": "cc98044fa5c90b0761cac762fff37147",
 "assets/assets/image/logo_app.png": "0fc01c8e94e507e5e3c49cc3d3ee7b7d",
@@ -1690,9 +1699,9 @@ const RESOURCES = {
 "favicon.png": "b2e52e21b919ec7936a36b6c76ba3c03",
 "icons/Icon-192.png": "846d416cc729dfb03dce46d9b7942c0e",
 "icons/Icon-512.png": "76487145c9266c653771201aead280df",
-"index.html": "ff2ce77475b18feeea9e4206b7244913",
-"/": "ff2ce77475b18feeea9e4206b7244913",
-"main.dart.js": "507217a6ba6ae0f56bc915cfede6b4bf",
+"index.html": "0384028e9813d431c996839a8b6fa3df",
+"/": "0384028e9813d431c996839a8b6fa3df",
+"main.dart.js": "bc57f8449a3f40f6d2c6852bc1505231",
 "manifest.json": "edcaffed37c69b7df9ce5f824c272825",
 "version.json": "1e81618bc5c4bec2443f4b8c185fba12"
 };
