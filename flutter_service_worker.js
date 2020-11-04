@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "8c22dbacd59c8f313581a9d60b5e8680",
-"assets/assets/dataset.bin": "a9f816792bd9e4f0809c71578715136f",
+  "assets/AssetManifest.json": "5e1ee3afa29cbba10b77f320085dc851",
+"assets/assets/dataset.bin": "209f8f77c1c01c28317a69dde514588e",
 "assets/assets/image/ability/Icon_Ability_1010001.png": "13d7ce4b76ff580d51584663f9c14d3f",
 "assets/assets/image/ability/Icon_Ability_1010002.png": "b196a1c7c00495100d27551afa4e5516",
 "assets/assets/image/ability/Icon_Ability_1010003.png": "22edbec44551f723eeecba2c796e3b99",
@@ -346,6 +346,7 @@ const RESOURCES = {
 "assets/assets/image/character/110017_01_r05.png": "652eea1eacfdf12d8b1affeb921ea2b1",
 "assets/assets/image/character/110018_01_r04.png": "5339856dbe25557f856d07a8d5ec7b43",
 "assets/assets/image/character/110018_01_r05.png": "e1a68f6a77a97fac1e76b83ab726a906",
+"assets/assets/image/character/110018_02_r05.png": "2f31fdb01a25c80ee16b7a02651a8ff7",
 "assets/assets/image/character/110019_01_r04.png": "d9336d27c47904fde95eeb8aa74bf7ff",
 "assets/assets/image/character/110019_01_r05.png": "0047b4e97cd71598f5a56ea04a96b19a",
 "assets/assets/image/character/110020_01_r04.png": "50558b5a79488568baa9f29bef8feb44",
@@ -731,6 +732,7 @@ const RESOURCES = {
 "assets/assets/image/dragon/210132_01.png": "49779460afc6d5dec6e02890e4b7f938",
 "assets/assets/image/dragon/210133_01.png": "d2ed559e13989bd2177a7c5aec461d72",
 "assets/assets/image/dragon/210134_01.png": "130b8d2ffb03def16a434e35ac7c7d8f",
+"assets/assets/image/dragon/210135_01.png": "261a9c60b1568fa7abc6ceaa007c019f",
 "assets/assets/image/Icon_Ability_Blank.png": "05c777caff1be89d29e84f297b16563d",
 "assets/assets/image/Icon_Dragon_Blank.png": "663dd2aa02c3b72295cb3adcb63c0477",
 "assets/assets/image/Icon_Element_Flame.png": "6d3d783037818d1f14b0ecde0d68d7af",
@@ -946,6 +948,7 @@ const RESOURCES = {
 "assets/assets/image/skill/Icon_Skill_177.png": "a1230f1e72d369e96f898f5bf210820b",
 "assets/assets/image/skill/Icon_Skill_178.png": "8ebf085010e3eb6b379681bbf229e72d",
 "assets/assets/image/skill/Icon_Skill_179.png": "52b99865fd2ce7684b10e73516c9fdfe",
+"assets/assets/image/skill/Icon_Skill_180.png": "9f488eef3a003f2e5f9a773718c80b76",
 "assets/assets/image/skill/Icon_Skill_704.png": "84d7bad9655c84dc1fea2413179841cd",
 "assets/assets/image/skill/Icon_Skill_709.png": "0868f405bd43cefd61e63f1ae2f671de",
 "assets/assets/image/skill/Icon_Skill_711.png": "63689a90b28ec70dcf69b11d955aa74a",
@@ -1726,9 +1729,9 @@ const RESOURCES = {
 "favicon.png": "b2e52e21b919ec7936a36b6c76ba3c03",
 "icons/Icon-192.png": "846d416cc729dfb03dce46d9b7942c0e",
 "icons/Icon-512.png": "76487145c9266c653771201aead280df",
-"index.html": "acbd6554045ca2a209fe4854e7883e18",
-"/": "acbd6554045ca2a209fe4854e7883e18",
-"main.dart.js": "daed3bf09445ebece882421a3f78223e",
+"index.html": "a151dac218fc77901dce7db24b0e255d",
+"/": "a151dac218fc77901dce7db24b0e255d",
+"main.dart.js": "add459a3abc76c78e68ce94c7ce9c487",
 "manifest.json": "edcaffed37c69b7df9ce5f824c272825",
 "version.json": "1e81618bc5c4bec2443f4b8c185fba12"
 };
