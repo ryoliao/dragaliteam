@@ -1,0 +1,153 @@
+syntax = "proto3";
+
+package dragali;
+
+enum ElementKind {
+    NoElement = 0;
+    Flame = 1;
+    Water = 2;
+    Wind = 3;
+    Light = 4;
+    Shadow = 5;
+}
+
+enum WeaponKind {
+    NoWeapon = 0;
+    Sword = 1;
+    Blade = 2;
+    Dagger = 3;
+    Axe = 4;
+    Lance = 5;
+    Bow = 6;
+    Wand = 7;
+    Staff = 8;
+    Manacaster = 9;
+}
+
+enum AffinityKind {
+    NoAffinity = 0;
+    CrownsBoon = 1;
+    AxesBoon = 2;
+    SwordsBoon = 3;
+    BowsBoon = 4;
+    DragonsBoon = 5;
+    LancesBoon = 6;
+    EaglesBoon = 7;
+    WolfsBoon = 8;
+    BullsBoon = 9;
+    SerpentsBoon = 10;
+    StaffsBoon = 11;
+}
+
+enum AdventurerClass {
+    NoAdventurerClass = 0;
+    Attack = 1;
+    Defense = 2;
+    Healing = 3;
+    Support = 4;
+}
+
+enum ShareableSkillFrom {
+    NoShareableSkillType = 0;
+    SkillFromDragon = 1;
+    SkillFromWeapon = 2;
+    SkillFromAdventurer = 3;
+}
+
+message Skill {
+    string name = 1;
+    string image = 11;
+}
+
+message Adventurer {
+    string name = 1;
+    uint32 rarity = 2;
+    ElementKind element = 3;
+    WeaponKind weapon = 4;
+    AdventurerClass klass = 5;
+    uint32 id_skill_1 = 6;
+    uint32 id_skill_2 = 7;
+    uint32 id_co_ability = 8;
+    uint32 id_chain_co_ability = 9;
+    string image = 11;
+}
+
+message ShareableSkill {
+    uint32 cost = 1;
+    uint32 id_skill = 2;
+    ShareableSkillFrom from = 3;
+}
+
+message Weapon {
+    string name = 1;
+    uint32 rarity = 2;
+    ElementKind element = 3;
+    WeaponKind weapon = 4;
+    uint32 id_skill = 5; 
+    string image = 11;
+}
+
+message Dragon {
+    string name = 1;
+    uint32 rarity = 2;
+    ElementKind element = 3;
+    uint32 id_skill = 4;
+    string image = 11;
+}
+
+message Wyrmprint {
+    string name = 1;
+    uint32 rarity = 2;
+    AffinityKind affinity = 3;
+    uint32 id_a11 = 21;
+    uint32 id_a12 = 22;
+    uint32 id_a13 = 23;
+    uint32 id_a21 = 24;
+    uint32 id_a22 = 25;
+    uint32 id_a23 = 26;
+    string image = 11;
+}
+
+message Ability {
+    string name = 1;
+    string image = 11;
+}
+
+message AbilityIcon {
+    string image = 1;
+}
+
+message DragaliDataset {
+    map<uint32, Adventurer> Adventurers = 2;
+    map<uint32, Weapon> Weapons = 3;
+    map<uint32, Dragon> Dragons = 4;
+    map<uint32, Wyrmprint> Wyrmprints = 5;
+    map<uint32, Skill> Skills = 6;
+    map<uint32, ShareableSkill> ShareableSkills = 7;
+    map<uint32, Ability> Abilities = 8;
+    repeated AbilityIcon AbilityIcons = 9;
+}
+
+message AdventurerSetup {
+    uint32 id_adventurer = 1;
+    uint32 id_weapon = 2;
+    uint32 id_dragon = 3;
+    uint32 id_print_a_1 = 11;
+    uint32 id_print_a_2 = 12;
+    uint32 id_print_a_3 = 13;
+    uint32 id_print_b_1 = 14;
+    uint32 id_print_b_2 = 15;
+    uint32 id_adventurer_ss_1 = 21; // zero is weapon skill
+    uint32 id_adventurer_ss_2 = 22;
+    uint32 id_ex_2 = 31;
+    uint32 id_ex_3 = 32;
+    uint32 id_ex_4 = 33;
+}
+
+message TeamSetup {
+    AdventurerSetup Adventurer_1 = 1;
+    AdventurerSetup Adventurer_2 = 2;
+    AdventurerSetup Adventurer_3 = 3;
+    AdventurerSetup Adventurer_4 = 4; 
+    bool Coop = 5;
+}
